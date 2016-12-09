@@ -14,15 +14,27 @@ p {
   line-height: 1.5;
 }
 
+a {
+  color: #DD705C;
+}
+
+li {
+  line-height: 1.5;
+}
+
 h1 {
-  font-size: 14vmin;
+  font-size: 17vmin;
   font-weight: 800;
   font-family: 'helvetica', sans-serif;
 }
 
 .hero h1 {
-  color: #FFF;
-  margin-bottom: 0;
+  color: #dd705c;
+  margin: 0;
+}
+
+.hero h2 {
+  color: #dd705c;
 }
 
 h2 {
@@ -33,8 +45,10 @@ h2 {
 
 /*Content*/
 .chapter-nav {
-  width: 100%;
+  max-width: 100%;
   background-color: #eee;
+  padding: 0 4rem;
+  margin-bottom: 3rem;
 }
 
 .outcomes {
@@ -47,7 +61,9 @@ h2 {
 }
 
 .hero {
-  background-color: #7F3F98;
+  background: #674B7C;
+  background: -webkit-linear-gradient(to bottom, #674B7C , #995FAF);
+  background: linear-gradient(to bottom, #674B7C , #995FAF);
   background-size: cover;
   background-position: center center;
   height: 80vh;
@@ -61,22 +77,36 @@ h2 {
 
 /*Navigation*/
 nav {
+  background-color: #dd705c;
+  width: auto;
+  display: flex;
+  flex-flow: row nowrap;
 
 }
 
 nav ul {
-    padding-left: 0;
     margin-top: 0.8rem;
     list-style: none;
-
+    margin: 0;
+    padding: 1rem 4rem;
 }
 
 nav li {
     padding: 0 0.8rem;
     display: inline;
     font-size: 1.4rem;
+    box-shadow: -1px 0 0 0 rgba(34,36,38,.15);
 }
 
+nav li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #dd705c;
+    color: #FFF;
+}
 
 /*Grid*/
 .row {
