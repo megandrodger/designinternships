@@ -1,0 +1,207 @@
+body {
+  font-size: 24px;
+  font-family: 'helvetica', sans-serif;
+  font-weight: 100;
+}
+
+main {
+  max-width: 100%;
+  margin: 2rem 4rem;
+}
+
+/*Typography*/
+p {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 14vmin;
+  font-weight: 800;
+  font-family: 'helvetica', sans-serif;
+}
+
+.hero h1 {
+  color: #FFF;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 5vmin;
+  color: #FFF;
+  font-weight: 100;
+}
+
+/*Content*/
+.chapter-nav {
+  width: 100%;
+  background-color: #eee;
+}
+
+.outcomes {
+
+}
+
+.training ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.hero {
+  background-color: #7F3F98;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+/*Navigation*/
+nav {
+
+}
+
+nav ul {
+    padding-left: 0;
+    margin-top: 0.8rem;
+    list-style: none;
+
+}
+
+nav li {
+    padding: 0 0.8rem;
+    display: inline;
+    font-size: 1.4rem;
+}
+
+
+/*Grid*/
+.row {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto; }
+  .row::before, .row::after {
+    content: ' ';
+    display: table; }
+  .row::after {
+    clear: both; }
+  .row.collapse > .column, .row.collapse > .columns {
+    padding-left: 0;
+    padding-right: 0; }
+  .row .row {
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem; }
+    .row .row.collapse {
+      margin-left: 0;
+      margin-right: 0; }
+  .row.small-collapse > .column, .row.small-collapse > .columns {
+    padding-left: 0;
+    padding-right: 0; }
+  .row.small-uncollapse > .column, .row.small-uncollapse > .columns {
+    padding-left: 30px;
+    padding-right: 30px; }
+  @media screen and (min-width: 40em) {
+    .row.medium-collapse > .column, .row.medium-collapse > .columns {
+      padding-left: 0;
+      padding-right: 0; }
+    .row.medium-uncollapse > .column, .row.medium-uncollapse > .columns {
+      padding-left: 30px;
+      padding-right: 30px; } }
+  @media screen and (min-width: 64em) {
+    .row.large-collapse > .column, .row.large-collapse > .columns {
+      padding-left: 0;
+      padding-right: 0; }
+    .row.large-uncollapse > .column, .row.large-uncollapse > .columns {
+      padding-left: 30px;
+      padding-right: 30px; } }
+  .row.expanded {
+    max-width: none; }
+
+.column, .columns {
+  width: 100%;
+  float: left;
+  // padding-left: 0.9375rem;padding-right: 0.9375rem;
+  }
+  .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+    float: right; }
+  .column.end:last-child, .end.columns:last-child {
+    float: left; }
+
+.column.row, .row.columns {
+  float: none; }
+
+@media screen and (min-width: 40em) {
+  .medium-1 {
+    width: 8.33333%; }
+  .medium-2 {
+    width: 16.66667%; }
+  .medium-3 {
+    width: 25%; }
+  .medium-4 {
+    width: 33.33333%; }
+  .medium-5 {
+    width: 41.66667%; }
+  .medium-6 {
+    width: 50%; }
+  .medium-7 {
+    width: 58.33333%; }
+  .medium-8 {
+    width: 66.66667%; }
+  .medium-9 {
+    width: 75%; }
+  .medium-10 {
+    width: 83.33333%; }
+  .medium-11 {
+    width: 91.66667%; }
+  .medium-12 {
+    width: 100%; }
+  .column.medium-centered, .medium-centered.columns {
+    float: none;
+    margin-left: auto;
+    margin-right: auto; }
+  .medium-uncenter,
+  .medium-push-0,
+  .medium-pull-0 {
+    position: static;
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media screen and (min-width: 64em) {
+  .large-1 {
+    width: 8.33333%; }
+  .large-2 {
+    width: 16.66667%; }
+  .large-3 {
+    width: 25%; }
+  .large-4 {
+    width: 33.33333%; }
+  .large-5 {
+    width: 41.66667%; }
+  .large-6 {
+    width: 50%; }
+  .large-7 {
+    width: 58.33333%; }
+  .large-8 {
+    width: 66.66667%; }
+  .large-9 {
+    width: 75%; }
+  .large-10 {
+    width: 83.33333%; }
+  .large-11 {
+    width: 91.66667%; }
+  .large-12 {
+    width: 100%; }
+  .column.large-centered, .large-centered.columns {
+    float: none;
+    margin-left: auto;
+    margin-right: auto; }
+  .large-uncenter,
+  .large-push-0,
+  .large-pull-0 {
+    position: static;
+    margin-left: 0;
+    margin-right: 0; }
+}
