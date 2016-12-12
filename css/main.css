@@ -277,13 +277,19 @@ nav .selected {
 
   main {
     margin: 2rem 2rem;
+    font-size: 4.5vmin;
   }
 
   .chapter-nav {
     padding: 1.5rem 2rem;
   }
 
+  .chapter-nav a {
+    font-size: 28px;
+  }
+
   nav ul {
     padding: 0.5rem 2rem;
   }
+
 }
