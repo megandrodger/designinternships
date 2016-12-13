@@ -1,3 +1,5 @@
+/*General*/
+
 html {
   -webkit-font-smoothing: antialiased;
 }
@@ -14,6 +16,7 @@ main {
 }
 
 /*Typography*/
+
 p {
   line-height: 1.6;
   letter-spacing: 1px;
@@ -41,7 +44,6 @@ h1 {
   font-family: 'Roboto Slab', serif;
 }
 
-
 .header-medium {
   font-size: 12vmin;
   font-weight: 800;
@@ -63,7 +65,15 @@ h2 {
   font-weight: 200;
 }
 
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
 /*Content*/
+
 .chapter-nav {
   max-width: 100%;
   background-color: #eee;
@@ -78,13 +88,28 @@ h2 {
 }
 
 .training, .outcomes {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   background: #eee;
-  padding: 1rem;
+  padding: 1.5rem;
+  border: #ccc solid 1px;
 }
 
 .training {
+  position: relative;
+}
 
+.training:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-top: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: -11px;
+  background: #eee;
+  margin-top: -10px
 }
 
 .outcomes {
@@ -108,6 +133,10 @@ h2 {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+}
+
+ul {
+  margin-bottom: 0;
 }
 
 
