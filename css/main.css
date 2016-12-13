@@ -1,4 +1,4 @@
-/*General*/
+  /* General */
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -15,7 +15,7 @@ main {
   margin: 2rem 4rem;
 }
 
-/*Typography*/
+  /* Typography */
 
 p {
   line-height: 1.6;
@@ -72,7 +72,11 @@ h3 {
   font-size: 1.8rem;
 }
 
-/*Content*/
+  /* Content */
+
+ul {
+  margin-bottom: 0;
+}
 
 .chapter-nav {
   max-width: 100%;
@@ -112,15 +116,6 @@ h3 {
   margin-top: -10px
 }
 
-.outcomes {
-
-}
-
-.training ul {
-  padding-left: 0;
-  list-style: none;
-}
-
 .hero {
   background: #674B7C;
   background: -webkit-linear-gradient(to bottom, #674B7C , #995FAF);
@@ -135,12 +130,9 @@ h3 {
   text-align: center;
 }
 
-ul {
-  margin-bottom: 0;
-}
 
+  /* Navigation */
 
-/*Navigation*/
 nav {
   position: absolute;
   top: 0;
@@ -151,7 +143,6 @@ nav {
   -webkit-box-shadow: 0 6px 21px -8px #333;
   -moz-box-shadow: 0 6px 21px -8px #333;
   box-shadow: 0 6px 21px -8px #333;
-
 }
 
 nav ul {
@@ -165,7 +156,6 @@ nav li {
   padding: 0 0.9rem;
   display: inline;
   font-size: 1.2rem;
-  /*box-shadow: -1px 0 0 0 rgba(34,36,38,.15);*/
 }
 
 nav li a {
@@ -184,7 +174,8 @@ nav .selected {
   border-color: #FFF;
 }
 
-/*Grid*/
+  /* Grid */
+
 .row {
   max-width: 75rem;
   margin-left: auto;
@@ -311,6 +302,8 @@ nav .selected {
   margin-left: 0;
   margin-right: 0; }
   }
+
+  /* Responsive */
 
 @media (max-width: 45em) {
 
