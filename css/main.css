@@ -371,13 +371,13 @@ ul {
 
 /*Hover state for top level links*/
 .centre li:hover a {
-  background: #FFBF47;
+  background: #DD705C;
   color: #0B0C0C;
 }
 
 /*Style for dropdown links*/
 .centre li:hover ul a {
-  background: #FFBF47;
+  background: #DD705C;
   color: #2f3036;
   height: 40px;
   line-height: 40px;
@@ -422,6 +422,7 @@ ul li a:hover + .hidden, .hidden:hover {
   text-align: center;
   padding: 10px 0;
   display: none;
+  cursor: pointer;
 }
 
 /*Hide checkbox*/
@@ -450,6 +451,18 @@ input[type=checkbox]:checked ~ #menu{
   .centre li {
     margin-bottom: 1px;
   }
+
+  .milestones ul a {
+    cursor: pointer;
+    color: #DD705C;
+    text-decoration: none;
+    background: none;
+  }
+
+  .milestones ul a:hover {
+    text-decoration: underline;;
+  }
+
   /*Make all menu links full width*/
   .centre ul li, li a {
     width: 100%;
@@ -463,7 +476,7 @@ input[type=checkbox]:checked ~ #menu{
   .centre li a:hover {
     border: 0;
     color: #0B0C0C;
-    background-color: #FFBF47;
+    background-color: #DD705C;
   }
   /*Display 'show menu' link*/
   .centre .show-menu {
