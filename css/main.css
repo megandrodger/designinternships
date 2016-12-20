@@ -38,16 +38,12 @@ li {
 h1 {
   font-size: 17vmin;
   font-weight: 600;
-/*  font-family: 'Roboto Slab', serif;
-*/
-font-family: 'Hind', sans-serif;
+  font-family: 'Hind', sans-serif;
 }
 
 .header-medium {
   font-size: 12vmin;
   font-weight: 600;
-/*  font-family: 'Roboto Slab', serif;
-*/
   font-family: 'Hind', sans-serif;
   color: #611d5c;
 }
