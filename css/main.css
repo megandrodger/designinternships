@@ -7,7 +7,7 @@ html {
 body {
   font-size: 26px;
   font-family: 'Hind', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 main {
@@ -141,6 +141,10 @@ ul {
 }
 
   /* Grid */
+
+.margin-increase {
+  margin-bottom: 2rem;
+}
 
 .row {
   max-width: 75rem;
