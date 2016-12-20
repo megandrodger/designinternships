@@ -121,10 +121,12 @@ ul {
   margin-top: -10px
 }
 
-.outcomes {
+/*.
+outcomes {
   display: flex;
   flex-direction: column;
 }
+*/
 
 .hero {
   background: #674B7C;
